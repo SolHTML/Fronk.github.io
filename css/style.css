@@ -216,3 +216,33 @@ button:hover {
         text-align: center;
     }
 }
+
+
+.games {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.gamelogo1 {
+    height: 25vh; /* Set the height of the image to 100% of the parent container (the header) */
+    width: 15vw; /* Allow the width to adjust proportionally */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin-left: 80px;
+    position: absolute; top: 230px;
+    
+}
+
+.games h1 {
+    font-size: 70px;
+    margin-bottom: 550px;
+}
+
+.games p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
